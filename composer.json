@@ -1,0 +1,14 @@
+{
+    "name": "chandrak/calc",
+    "require": {
+        "phpunit/phpunit": "4.4.2"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "phpdevotee",
+            "email": "ck.test.pro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
