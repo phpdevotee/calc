@@ -1,7 +1,8 @@
 {
     "name": "chandrak/calc",
     "require": {
-        "phpunit/phpunit": "4.4.2"
+        "phpunit/phpunit": "4.4.2",
+        "squizlabs/php_codesniffer": "2.2"
     },
     "license": "GPL",
     "authors": [
@@ -10,5 +11,11 @@
             "email": "ck.test.pro@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "phpdevotee\\calc\\": "src"
+        }
+    }
+    
 }

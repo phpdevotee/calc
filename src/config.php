@@ -2,8 +2,8 @@
 /**
  * php 5.4
  * 
- * Config File and Globla Setup File
+ * Config File and Global Setup File
  * 
  */
 
-require_once (__DIR__); 
+require_once dirname((__DIR__))."/vendor/autoload.php"; 
