@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/phpdevotee/calc.svg?branch=master)](https://travis-ci.org/phpdevotee/calc)
+
 # Reminder
 
 Basic PHP app for  Complete Build Process Testing
