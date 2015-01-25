@@ -1,0 +1,63 @@
+<?php
+/**
+ * Using php 5.4
+ *
+ * File contain basic calulator program
+ *
+ * @category NONE
+ * @package  Calc
+ * @author   Chandra Kishor <ck.test.pro@gmail.com>
+ * @since    20150122
+ */
+namespace phpdevotee\calc\lib;
+
+/**
+ * Basic class used for calulation
+ *
+ * provide handy function such as
+ *
+ * adding
+ * substration
+ * divison
+ * multiply
+ */
+
+class Calculator
+{
+    
+    /**
+     *
+     * @access    public
+     */
+    
+    public function __construct()
+    {
+        
+    }
+    
+    /**
+     * addMe
+     *
+     * Function is used to add number
+     *
+     * @access public
+     * @param  mixed Actually you can pass any number pf parameter here
+     * @return float|integer
+     */
+    
+    public function addMe()
+    {
+        
+        $args = func_get_args();
+        $sum = 0;
+        
+        foreach ($args as $val) {
+            if (is_numeric($val)) {
+                $sum += $val;
+            }
+        }
+        
+        return $sum;
+    }
+}
+

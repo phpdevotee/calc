@@ -126,7 +126,7 @@ class Calculator
         
         if (is_numeric($to) && is_numeric($by)) {
             if ($by == 0) {
-                throw new \Exception('Can not divide by zero!');
+                throw new \Exception('Can nto divide by zero!');
             }
             $result = (int)($to / $by);
         }
@@ -134,3 +134,4 @@ class Calculator
         return $result;
     }
 }
+
