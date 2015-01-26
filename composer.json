@@ -1,21 +1,23 @@
 {
-    "name": "chandrak/calc",
-    "require": {
-        "phpunit/phpunit": "4.4.2",
+	"name" : "chandrak/calc",
+	"license" : "GPL",
+	"authors" : [{
+			"name" : "phpdevotee",
+			"email" : "ck.test.pro@gmail.com"
+		}
+	],
+	"require": {
+        "phpunit/phpunit": "3.7.0",
         "squizlabs/php_codesniffer": "2.2"
     },
-    "license": "GPL",
-    "authors": [
-        {
-            "name": "phpdevotee",
-            "email": "ck.test.pro@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "phpdevotee\\calc\\": "src"
-        }
-    }
-    
+	"minimum-stability" : "stable",
+	"autoload" : {
+		"psr-4" : {
+			"phpdevotee\\calc\\" : "src"
+		}
+	},
+	"support" : {
+		"email" : "ck.test.pro@gmail.com"
+	},
+	"description" : "Just Testing"
 }

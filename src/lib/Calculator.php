@@ -112,9 +112,9 @@ class Calculator
         
     }
     /**
-     * 
-     * Function is used for division 
-     * 
+     *
+     * Function is used for division
+     *
      * @param int|float $to
      * @param int|float $by
      * @throws \Exception

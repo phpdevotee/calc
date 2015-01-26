@@ -52,13 +52,5 @@ class CalculatorTest extends \PHPUnit_Framework_TestCase
     }
     
 
-    /**
-     * @expectedException \Exception
-     */
-    public function test_divideMeByZero()
-    {
-        $this->assertEquals(0, $this->calcObj->divideMe(2,0));
-    
-    }
     
 }
