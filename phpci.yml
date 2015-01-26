@@ -1,0 +1,34 @@
+build_settings:
+    verbose: true
+    ignore:
+
+ 
+    mysql:
+        host: "localhost"
+        user: "root"
+        pass: ""
+ 
+setup:
+    composer:
+        action: "install"
+
+ 
+test:
+    php_unit:        
+        config:
+            - "phpunit.xml"
+        path: "tests/"
+        run_from: "./"
+     #   coverage: "coverage"
+#    php_mess_detector:
+#        allow_failures: true
+    php_code_sniffer:
+        standard: "PSR2"
+        path: "src/lib"
+        ignore:
+            - "tests/*,vendor/*"
+        allowed_warnings: 1
+#    php_cpd:
+#        allow_failures: false
+    php_loc:
+       directory: "src"
